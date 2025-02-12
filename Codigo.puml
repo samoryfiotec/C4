@@ -1,15 +1,15 @@
-@startuml BibliotecaCodigo
+@startuml AplicacaoCodigo
 
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
-class Book {
-    - String title
-    - String author
+class Documento {
+    - String Nome
+    - String Descricao
     - Date publishDate
     - Boolean isAvailable
 
-+ getTitle() : String
-+ getAuthor() : String
++ getNome() : String
++ getDescricao() : String
 + getPublishDate() : Date
 + checkAvailabity() : Boolean
 }

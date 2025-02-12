@@ -1,4 +1,4 @@
-@startuml BibliotecaComponent
+@startuml AplicacaoComponent
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
 Container(api, "API Backend", "Spring Boot", "API Rest para a aplicacao", "BackEnd da aplicação"){

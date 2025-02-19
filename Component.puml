@@ -9,3 +9,5 @@ Container(api, "API Backend", "Spring Boot", "API Rest para a aplicacao", "BackE
 
 Rel(controller, service, "Chamada de Métodos")
 Rel(service, repository, "Consulta ao Banco de Dados")
+
+@enduml

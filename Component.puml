@@ -1,10 +1,10 @@
 @startuml AplicacaoComponent
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
-Container(api, "API Backend", "Spring Boot", "API Rest para a aplicacao", "BackEnd da aplicação"){
-    Component(controller, "Controlador REST", "Controlador Spring MVC", "Recebe Requisições HTTP")
+Container(api, "API Backend", "NET8", "API Rest para a aplicacao", "BackEnd da aplicação"){
+    Component(controller, "Controlador REST", "Controlador MVC", "Recebe Requisições HTTP")
     Component(service, "Serviço", "Classe de Serviço", "Contém a lógica de negócio")
-    Component(repository, "Repositório", "Interface JPA", "Gerencia operações de banco de dados")
+    Component(repository, "Repositório", "Interface EF", "Gerencia operações de banco de dados")
 }
 
 Rel(controller, service, "Chamada de Métodos")

@@ -12,25 +12,25 @@ O modelo C4 é uma abordagem para a modelagem de arquitetura de software que vis
 
 No nível de contexto, descrevemos a visão geral do sistema, identificando os atores externos e os principais sistemas com os quais o sistema em questão interage. Isso nos ajuda a entender o ambiente no qual o sistema está inserido.
 
-![Diagrama de Contexto](out\Contexto\BibliotecaContext.png)
+![Diagrama de Contexto](out/Contexto/BibliotecaContext.png)
 
 ## Nível 2: Contêiner
 
 No nível de contêiner, descrevemos os principais contêineres que compõem o sistema, como aplicativos web, serviços, bancos de dados, dentre outros. Também identificamos as interações entre esses contêineres, fornecendo uma visão de alto nível da arquitetura do sistema.
 
-![Diagrama de Container](out\Container\BibliotecaContainer.png)
+![Diagrama de Container](out/Container/BibliotecaContainer.png)
 
 ## Nível 3: Componente
 
 No nível de componente, descrevemos os principais componentes dentro de cada contêiner. Isso nos ajuda a entender como os diferentes componentes se relacionam e interagem entre si.
 
-![Diagrama de Componente](out\Component\BibliotecaComponent.png)
+![Diagrama de Componente](out/Component/BibliotecaComponent.png)
 
 ## Nível 4: Código
 
 No nível de código, podemos fornecer detalhes técnicos sobre a implementação dos componentes. Isso pode incluir diagramas de classe, diagramas de sequência, diagramas de atividades, entre outros.
 
-![Diagrama de Código](out\Codigo\BibliotecaCodigo.png)
+![Diagrama de Código](out/Codigo/BibliotecaCodigo.png)
 
 ## Exemplo Prático
 

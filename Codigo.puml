@@ -5,13 +5,13 @@
 class Documento {
     - String Nome
     - String Descricao
-    - Date publishDate
-    - Boolean isAvailable
+    - Date inclusaoData
+    - Boolean isDisponivel
 
 + getNome() : String
 + getDescricao() : String
-+ getPublishDate() : Date
-+ checkAvailabity() : Boolean
++ getDataInclusao() : Date
++ checkDisponivel() : Boolean
 }
 
 @enduml

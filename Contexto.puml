@@ -1,9 +1,9 @@
 @startuml AplicacaoContext
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-Person(usuario, "Usuário", "Usuario que interage com a aplicação")
+Person(usuario, "Usuário", "Usuario que utiliza a aplicação")
 System(sistemaProcessos, "Sistema de Gestão de Processos", "Sistema que gerencia os processos da empresa")
-System_Ext(servicoValidacao, "Serviço de Validacao", "Serviço externo que realiza o pagamento")
+System_Ext(servicoValidacao, "Serviço de Validação do Processo", "Serviço externo que valida o processo")
 
 Rel(usuario, sistemaProcessos, "Usa")
 Rel(sistemaProcessos, servicoValidacao, "Valida Processo")

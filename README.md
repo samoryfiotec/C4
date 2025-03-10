@@ -8,6 +8,10 @@ O modelo C4 é uma abordagem para a modelagem de arquitetura de software que vis
 ![Plugin](https://img.shields.io/badge/Plugin-PlantUML-yellow)
 ![GitHub repo size](https://img.shields.io/github/repo-size/samoryfiotec/C4?label=Repo%20Size&color=brown&style=flat&suffix=KB)
 
+## Plugin 
+
+Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime Environment) na máquina para que ele possa renderizar as imagens dos diagramas.
+
 ## Nível 1: Contexto
 
 No nível de contexto, descrevemos a visão geral do sistema, identificando os atores externos e os principais sistemas com os quais o sistema em questão interage. Isso nos ajuda a entender o ambiente no qual o sistema está inserido.

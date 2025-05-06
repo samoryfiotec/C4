@@ -1,0 +1,8 @@
+@startuml Diagrama Clientes
+
+
+Title Diagrama: Clente
+ class Cliente
+ class Endereco
+ class Telefone
+ @enduml

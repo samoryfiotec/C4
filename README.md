@@ -2,15 +2,14 @@
 
 O modelo C4 é uma abordagem para a modelagem de arquitetura de software que visa fornecer uma visão clara e concisa da arquitetura de um sistema. Ele é composto por quatro níveis de abstração: Contexto, Contêiner, Componente e Código.
 
-[![Fiotec](https://img.shields.io/badge/Fundação-Fiotec-skyblue)](https://www.fiotec.fiocruz.br/)
 ![Tecnologias](https://img.shields.io/badge/Tecnologias-C4%20Model-blue)
 ![IDE](https://img.shields.io/badge/IDE-Visual%20Studio%20Code-orange)
 ![Plugin](https://img.shields.io/badge/Plugin-PlantUML-yellow)
 ![GitHub repo size](https://img.shields.io/github/repo-size/samoryfiotec/C4?label=Repo%20Size&color=brown&style=flat&suffix=KB)
 
-## Plugin 
+## Requisitos 
 
-Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime Environment) na máquina para que ele possa renderizar as imagens dos diagramas.
+Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime Environment) e o Graphicviz na máquina para que ele possa renderizar as imagens dos diagramas.
 
 ## Nível 1: Contexto
 
@@ -41,3 +40,8 @@ No nível de código, podemos fornecer detalhes técnicos sobre a implementaçã
 Para ilustrar a aplicação prática do modelo C4, vamos considerar um sistema de biblioteca. No nível de contexto, identificamos os atores externos, como clientes, fornecedores e sistemas de pagamento. No nível de contêiner, identificamos os principais contêineres, como o aplicativo web, o banco de dados e os serviços de pagamento. No nível de componente, descrevemos os principais componentes dentro de cada contêiner, como o carrinho de compras, o catálogo de produtos e o processador de pagamento. Por fim, no nível de código, podemos fornecer detalhes técnicos sobre a implementação desses componentes, como as classes e métodos utilizados.
 
 O modelo C4 nos ajuda a ter uma visão clara e estruturada da arquitetura do sistema, facilitando a comunicação entre os membros da equipe e permitindo uma melhor compreensão do sistema como um todo.
+
+## Wireframe
+
+Também é possível criar wireframes.
+![Diagrama de Wireframe](out/Wireframe/Wireframe.png)

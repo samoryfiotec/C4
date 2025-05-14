@@ -1,0 +1,17 @@
+@startuml
+!theme mars
+left to right direction
+
+actor Usuario
+actor Administrador
+
+rectangle "Sistema de Gestão" {
+    Usuario -- (Realizar Login)
+    Usuario -- (Visualizar Dados)
+    Usuario -- (Atualizar Perfil)
+    Administrador -- (Gerenciar Usuários)
+    Administrador -- (Visualizar Relatórios)
+    (Gerenciar Usuários) .> (Realizar Login) : <<include>>
+}
+
+@enduml

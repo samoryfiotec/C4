@@ -1,0 +1,19 @@
+@startuml DiagramaSequencia
+!theme materia-outline
+title Diagrama de Sequência
+participant Participante as Foo
+actor       Ator       as Foo1
+boundary    Fronteira    as Foo2
+control     Controle     as Foo3
+entity      Entidade      as Foo4
+database    BancoDeDados    as Foo5
+collections Coleções as Foo6
+queue       RabbitMQ       as Foo7
+Foo -> Foo1 : Para ator 
+Foo -> Foo2 : Para fronteira
+Foo -> Foo3 : Para controle
+Foo -> Foo4 : Para entidade
+Foo -> Foo5 : Para banco de dados
+Foo -> Foo6 : Para coleções
+Foo -> Foo7: Para fila
+@enduml

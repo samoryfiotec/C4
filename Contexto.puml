@@ -1,7 +1,7 @@
 @startuml AplicacaoContext
 !includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 
-' Removendo ou ajustando a definição da tag personalizada
+
 AddRelTag("sync", $textColor="black", $lineColor="black", $lineStyle="dashed")
 
 Person(usuario, "Usuário", "Usuario que utiliza a aplicação")

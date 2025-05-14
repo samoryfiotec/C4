@@ -7,7 +7,7 @@ O modelo C4 é uma abordagem para a modelagem de arquitetura de software que vis
 ![Plugin](https://img.shields.io/badge/Plugin-PlantUML-yellow)
 ![GitHub repo size](https://img.shields.io/github/repo-size/samoryfiotec/C4?label=Repo%20Size&color=brown&style=flat&suffix=KB)
 
-## Requisitos 
+## Requisitos
 
 Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime Environment) e o Graphicviz na máquina para que ele possa renderizar as imagens dos diagramas.
 

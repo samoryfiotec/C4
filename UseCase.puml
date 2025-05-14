@@ -1,4 +1,6 @@
 @startuml
+' !define RECTANGLE_COLOR #FFCC00
+' !define Usuario #FF9900
 left to right direction
 
 actor Usuario

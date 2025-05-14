@@ -1,0 +1,45 @@
+@startjson Exemplo de JSON
+#highlight "sobrenome" / "primeiroNome"
+#highlight "endereco" / "cidade"
+#highlight "phoneNumbers" / "0" / "number"
+{
+  "primeiroNome": "Joao",
+  "sobrenome": "Silva",
+  "estaVivo": true,
+  "idade": 28,
+  "endereco": {
+    "rua": "Rua dos Andradas",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "codigoPostal": "20000-000"
+  },
+  "numerosDeTelefone": [
+    {
+      "tipo": "casa",
+      "numero": "21 555-1234"
+    },
+    {
+      "tipo": "escritorio",
+      "numero": "21 555-4567"
+    }
+  ],
+  "filhos": [
+    {
+      "primeiroNome": "Ana",
+      "sobrenome": "Silva",
+      "idade": 5
+    },
+    {
+      "primeiroNome": "Pedro",
+      "sobrenome": "Silva",
+      "idade": 3
+    }
+  ],
+  "conjuge": {
+    "primeiroNome": "Maria",
+    "sobrenome": "Silva",
+    "estaVivo": true,
+    "idade": 26
+  }
+}
+@endjson

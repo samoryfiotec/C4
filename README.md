@@ -45,3 +45,7 @@ O modelo C4 nos ajuda a ter uma visão clara e estruturada da arquitetura do sis
 
 Também é possível criar wireframes.
 ![Diagrama de Wireframe](out/Wireframe/Wireframe.png)
+
+## Mapas Mentais
+
+Também é possível criar mapas mentais

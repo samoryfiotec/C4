@@ -1,4 +1,5 @@
 @startuml DiagramaSequencia
+!theme materia-outline
 title Diagrama de Sequência
 participant Participante as Foo
 actor       Ator       as Foo1

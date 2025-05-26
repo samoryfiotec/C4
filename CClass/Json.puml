@@ -1,7 +1,7 @@
 @startjson Exemplo de JSON
 #highlight "sobrenome" / "primeiroNome"
 #highlight "endereco" / "cidade"
-#highlight "phoneNumbers" / "0" / "number"
+#highlight "numerosDeTelefone" / "0" / "numero"
 {
   "primeiroNome": "Joao",
   "sobrenome": "Silva",

@@ -1,0 +1,51 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+' Definir o contexto do sistema
+LAYOUT_TOP_DOWN()
+
+' Camadas principais da aplicação .NET 8
+Container_Boundary(api_layer, "API Layer") {
+    Component(controller, "Controllers", "ASP.NET Core")
+    Component(middleware, "Middlewares", "ASP.NET Core")
+}
+
+Container_Boundary(application_layer, "Application Layer") {
+    Component(service, "Services", "C#")
+    Component(cqrs, "CQRS", "C#")
+    Component(interface, "Interfaces", "C#")
+}
+
+Container_Boundary(domain_layer, "Domain Layer") {
+    Component(entity, "Entities", "C#")
+    Component(value_object, "Value Objects", "C#")
+    Component(domain_service, "Domain Services", "C#")
+}
+
+Container_Boundary(infrastructure_layer, "Infrastructure Layer") {
+    Component(repository, "Repositories", "C#")
+    Component(external_api_client, "External API Clients", "C#")
+    Component(db_context, "Database Context", "EF Core")
+}
+
+' Sistemas externos
+System_Ext(sql_server, "SQL Server", "Database")
+System_Ext(redis, "Redis", "Cache")
+System_Ext(auth_provider, "External Auth Provider", "Auth Service")
+
+' Conexões entre os componentes
+Rel(controller, service, "Calls", "HTTP")
+Rel(service, repository, "Uses", "C#")
+Rel(repository, db_context, "Uses", "EF Core")
+Rel(service, external_api_client, "Calls", "HTTP")
+Rel(db_context, sql_server, "Reads/Writes", "SQL")
+Rel(service, cqrs, "Uses", "C#")
+Rel(cqrs, interface, "Implements", "C#")
+Rel(service, domain_service, "Uses", "C#")
+Rel(domain_service, entity, "Manipulates", "C#")
+Rel(domain_service, value_object, "Uses", "C#")
+Rel(controller, middleware, "Uses", "ASP.NET Core")
+Rel(middleware, auth_provider, "Authenticates", "HTTP")
+Rel(service, redis, "Caches", "Redis")
+
+@enduml

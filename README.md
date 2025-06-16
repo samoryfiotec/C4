@@ -55,3 +55,7 @@ Também é possível criar mapas mentais
 
 Diagrama de Caso de Uso
 ![Diagrama de Caso de Uso](out/UseCase/UseCase.svg)
+
+## Sequência
+
+![Diagrama de Sequência](out/Sequence/DiagramaSequencia.svg)

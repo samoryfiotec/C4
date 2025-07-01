@@ -41,7 +41,7 @@ Para ilustrar a aplicação prática do modelo C4, vamos considerar um sistema d
 
 O modelo C4 nos ajuda a ter uma visão clara e estruturada da arquitetura do sistema, facilitando a comunicação entre os membros da equipe e permitindo uma melhor compreensão do sistema como um todo.
 
-## Wireframe
+<!-- ## Wireframe
 
 Também é possível criar wireframes.
 ![Diagrama de Wireframe](out/Wireframe/Wireframe.svg)
@@ -55,3 +55,7 @@ Também é possível criar mapas mentais
 
 Diagrama de Caso de Uso
 ![Diagrama de Caso de Uso](out/UseCase/UseCase.svg)
+
+## Sequência
+
+![Diagrama de Sequência](out/Sequence/DiagramaSequencia.svg) -->

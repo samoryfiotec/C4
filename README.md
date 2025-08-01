@@ -41,6 +41,10 @@ Para ilustrar a aplicação prática do modelo C4, vamos considerar um sistema d
 
 O modelo C4 nos ajuda a ter uma visão clara e estruturada da arquitetura do sistema, facilitando a comunicação entre os membros da equipe e permitindo uma melhor compreensão do sistema como um todo.
 
+### Templates
+
+Para ver os templates [Clique aqui](Templates/README.md)
+
 <!-- ## Wireframe
 
 Também é possível criar wireframes.

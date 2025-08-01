@@ -1,0 +1,14 @@
+@startuml AplicacaoContext
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+
+AddRelTag("sync", $textColor="black", $lineColor="black", $lineStyle="dashed")
+
+Person(usuario, "Usuário", "Usuário que utiliza a aplicação")
+System(sistema, "Sistema", "Sistema utilizado pelo usuário")
+System_Ext(sistemaExterno, "Serviço Externo", "Serviço externo a ser utilizado")
+
+Rel(usuario, sistema, "Usa")
+Rel(sistema, sistemaExterno, "Colabora", $tags="sync")
+
+@enduml

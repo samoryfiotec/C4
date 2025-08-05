@@ -11,7 +11,18 @@ O modelo C4 é uma abordagem para a modelagem de arquitetura de software que vis
 
 Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime Environment) e o Graphicviz na máquina para que ele possa renderizar as imagens dos diagramas.
 
-## Nível 1: Contexto
+## Principais
+
+[Clique aqui](CPrincipais/README.md)
+
+## Casos de Uso
+
+[Clique aqui](CUseCases/README.md)
+
+## Classes
+[Clique aqui](CClass/README.md)
+
+<!-- ## Nível 1: Contexto
 
 No nível de contexto, descrevemos a visão geral do sistema, identificando os atores externos e os principais sistemas com os quais o sistema em questão interage. Isso nos ajuda a entender o ambiente no qual o sistema está inserido.
 
@@ -33,7 +44,7 @@ No nível de componente, descrevemos os principais componentes dentro de cada co
 
 No nível de código, podemos fornecer detalhes técnicos sobre a implementação dos componentes. Isso pode incluir diagramas de classe, diagramas de sequência, diagramas de atividades, entre outros.
 
-![Diagrama de Código](out/Codigo/AplicacaoCodigo.png)
+![Diagrama de Código](out/Codigo/AplicacaoCodigo.png) -->
 
 ### Templates
 

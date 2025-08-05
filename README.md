@@ -11,7 +11,18 @@ O modelo C4 é uma abordagem para a modelagem de arquitetura de software que vis
 
 Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime Environment) e o Graphicviz na máquina para que ele possa renderizar as imagens dos diagramas.
 
-## Nível 1: Contexto
+## Principais
+
+[Clique aqui](CPrincipais/README.md)
+
+## Casos de Uso
+
+[Clique aqui](CUseCases/README.md)
+
+## Classes
+[Clique aqui](CClass/README.md)
+
+<!-- ## Nível 1: Contexto
 
 No nível de contexto, descrevemos a visão geral do sistema, identificando os atores externos e os principais sistemas com os quais o sistema em questão interage. Isso nos ajuda a entender o ambiente no qual o sistema está inserido.
 
@@ -33,33 +44,9 @@ No nível de componente, descrevemos os principais componentes dentro de cada co
 
 No nível de código, podemos fornecer detalhes técnicos sobre a implementação dos componentes. Isso pode incluir diagramas de classe, diagramas de sequência, diagramas de atividades, entre outros.
 
-![Diagrama de Código](out/Codigo/AplicacaoCodigo.png)
-
-## Exemplo Prático
-
-Para ilustrar a aplicação prática do modelo C4, vamos considerar um sistema de biblioteca. No nível de contexto, identificamos os atores externos, como clientes, fornecedores e sistemas de pagamento. No nível de contêiner, identificamos os principais contêineres, como o aplicativo web, o banco de dados e os serviços de pagamento. No nível de componente, descrevemos os principais componentes dentro de cada contêiner, como o carrinho de compras, o catálogo de produtos e o processador de pagamento. Por fim, no nível de código, podemos fornecer detalhes técnicos sobre a implementação desses componentes, como as classes e métodos utilizados.
-
-O modelo C4 nos ajuda a ter uma visão clara e estruturada da arquitetura do sistema, facilitando a comunicação entre os membros da equipe e permitindo uma melhor compreensão do sistema como um todo.
+![Diagrama de Código](out/Codigo/AplicacaoCodigo.png) -->
 
 ### Templates
 
 Para ver os templates [Clique aqui](Templates/README.md)
 
-<!-- ## Wireframe
-
-Também é possível criar wireframes.
-![Diagrama de Wireframe](out/Wireframe/Wireframe.svg)
-
-## Mapas Mentais
-
-Também é possível criar mapas mentais
-![Diagrama de Mapa Mental](out/MentalMap/MentalMap.svg)
-
-## Caso de Uso
-
-Diagrama de Caso de Uso
-![Diagrama de Caso de Uso](out/UseCase/UseCase.svg)
-
-## Sequência
-
-![Diagrama de Sequência](out/Sequence/DiagramaSequencia.svg) -->

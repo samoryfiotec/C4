@@ -3,6 +3,8 @@
 
 LAYOUT_WITH_LEGEND()
 
+AddRelTag("sync", $textColor="black", $lineColor="black", $lineStyle="dashed")
+
 Person_Ext(usuario, "Usuário", "Usuario que interage com o sistema")
 Container(webapp, "AplicacaoWeb", "React", "FrontEnd da aplicação")
 Container(mobileapp, "AplicacaoMobile", "React Native", "FrontEnd da aplicação")
@@ -11,8 +13,8 @@ ContainerDb(database, "Banco de Dados", "SQLServer", "Banco de Dados da aplicaç
 
 Rel(usuario, webapp, "Usa")
 Rel(usuario, mobileapp, "Usa")
-Rel(webapp, api, "Requisições HTTPS")
-Rel(mobileapp, api, "Requisições HTTPS")
+Rel(webapp, api, "Requisições HTTPS", $tags="sync")
+Rel(mobileapp, api, "Requisições HTTPS", $tags="sync")
 Rel(api, database, "SQL", "Usa")
 
 @enduml

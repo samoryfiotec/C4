@@ -1,0 +1,29 @@
+@startuml EnviarBoletoEmail_Sequencia
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Sequence.puml
+!theme materia-outline
+title Enviar Boleto por E-mail
+
+actor Usuario
+
+participant "Web API" as WebAPI
+participant "Application Layer" as App
+participant "Domain Layer" as Domain
+participant "Infrastructure Layer" as Infra
+participant "Email Service" as Email
+participant "PDF Storage" as PDF
+
+Usuario -> WebAPI : Solicita envio de boleto por e-mail
+WebAPI -> WebAPI : Valida e-mail e ID do boleto
+WebAPI -> App : Executa caso de uso "EnviarBoletoPorEmail"
+App -> Domain : Verifica se boleto existe e está válido
+Domain -> App : Retorna status do boleto
+App -> Infra : Solicita PDF do boleto
+Infra -> PDF : Recupera PDF
+PDF -> Infra : Retorna PDF
+Infra -> Email : Envia e-mail com anexo
+Email -> Infra : Confirma envio
+Infra -> App : Retorna sucesso
+App -> WebAPI : Retorna confirmação
+WebAPI -> Usuario : Confirma envio do boleto
+
+@enduml

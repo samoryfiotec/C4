@@ -1,0 +1,27 @@
+@startuml EnviarBoletoEmail_Atividade
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+' skinparam linetype orthogonal true
+|Usuário|
+start
+:Solicita envio de boleto por e-mail;
+
+|Web API|
+:Recebe requisição;
+:Valida e-mail e ID do boleto;
+
+|Application Layer|
+:Executa caso de uso "EnviarBoletoPorEmail";
+:Verifica se boleto existe e está gerado;
+
+|Domain Layer|
+:Valida regras de envio (ex: vencimento, status);
+
+|Infrastructure Layer|
+:Recupera PDF do boleto;
+:Envia e-mail com anexo;
+
+|Web API|
+:Retorna confirmação ao usuário;
+
+stop
+@enduml

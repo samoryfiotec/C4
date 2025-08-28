@@ -1,4 +1,5 @@
 @startuml DiagramaSequencia
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Sequence.puml
 !theme materia-outline
 title Diagrama de Sequência
 participant Participante as Foo

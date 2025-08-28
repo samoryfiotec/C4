@@ -1,4 +1,5 @@
-@startuml
+@startuml UseCase
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
 !theme mars
 left to right direction
 

@@ -8,7 +8,7 @@ Também é possível criar mapas mentais
 ## Sequência
 
 É muito útil para criar diagramas de sequência
-![Diagrama de Sequência](/out/Sequence/DiagramaSequencia.svg)
+![Diagrama de Sequência](/out/CUseCases/Sequence_Email/EnviarBoletoEmail_Sequencia.svg)
 
 ## Caso de Uso
 

@@ -36,6 +36,11 @@ Enfim, esses diagramas ajudam a comunicar a arquitetura de software de forma cla
 
 ## Exemplo Prático
 
-Para ilustrar a aplicação prática do modelo C4, vamos considerar um sistema de biblioteca. No nível de contexto, identificamos os atores externos, como clientes, fornecedores e sistemas de pagamento. No nível de contêiner, identificamos os principais contêineres, como o aplicativo web, o banco de dados e os serviços de pagamento. No nível de componente, descrevemos os principais componentes dentro de cada contêiner, como o carrinho de compras, o catálogo de produtos e o processador de pagamento. Por fim, no nível de código, podemos fornecer detalhes técnicos sobre a implementação desses componentes, como as classes e métodos utilizados.
+Imagine uma aplicação de gerenciamento de tarefas online:
 
-O modelo C4 nos ajuda a ter uma visão clara e estruturada da arquitetura do sistema, facilitando a comunicação entre os membros da equipe e permitindo uma melhor compreensão do sistema como um todo.
+- **Diagrama de Contexto:** Mostra o sistema de gerenciamento de tarefas interagindo com usuários (como administradores e colaboradores) e sistemas externos, como serviços de autenticação.
+- **Diagrama de Container:** Detalha os principais containers, como a aplicação web, uma API backend, um banco de dados e um serviço de notificações.
+- **Diagrama de Componentes:** Aprofunda, por exemplo, na API backend, mostrando componentes como controle de autenticação, gerenciamento de tarefas e envio de notificações.
+- **Diagrama de Código:** Exibe as classes e interfaces dentro do componente de gerenciamento de tarefas, como `Tarefa`, `Usuario`, `RepositorioTarefas` e suas relações.
+
+Esses diagramas permitem visualizar desde a interação geral do sistema até detalhes de implementação, facilitando o entendimento e a comunicação entre todos os envolvidos no projeto.

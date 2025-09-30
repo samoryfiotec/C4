@@ -13,40 +13,24 @@ Para que o PlantUML possa funcionar é necessário instalar o JRE (Java Runtime 
 
 ## Principais
 
-[Clique aqui](CPrincipais/README.md)
+> Os diagramas principais do modelo C4 são utilizados para representar diferentes níveis de abstração da arquitetura de um sistema de software:
+Os principais diagramas do modelo C4 são: o **Diagrama de Contexto**, que mostra o sistema como um todo, seus usuários e sistemas externos com os quais interage; o **Diagrama de Contêiner**, que detalha os principais contêineres (aplicações, serviços, bancos de dados) que compõem o sistema e como eles se comunicam; o **Diagrama de Componente**, que apresenta os componentes internos de cada contêiner e suas relações; e o **Diagrama de Código**, que foca nos detalhes de implementação, como classes e suas interações.
+
+Esses diagramas ajudam a visualizar e comunicar a estrutura do sistema em diferentes níveis de detalhe.
+[Veja aqui](CPrincipais/README.md)
 
 ## Casos de Uso
 
-[Clique aqui](CUseCases/README.md)
+> Os **Casos de Uso** descrevem as interações entre os usuários (atores) e o sistema, detalhando os objetivos que os usuários desejam alcançar com o sistema. Eles ajudam a capturar os requisitos funcionais, mostrando como diferentes tipos de usuários utilizam as funcionalidades oferecidas. Diagramas de casos de uso facilitam a comunicação entre as partes interessadas e servem como base para o desenvolvimento e testes do sistema.
+
+[Veja aqui](CUseCases/README.md)
 
 ## Classes
-[Clique aqui](CClass/README.md)
 
-<!-- ## Nível 1: Contexto
+> Os **Diagramas de Classes** representam a estrutura estática do sistema, mostrando as classes, seus atributos, métodos e os relacionamentos entre elas, como herança, associação e dependência. Eles são essenciais para detalhar a implementação dos componentes e facilitam o entendimento do design orientado a objetos, servindo como referência para desenvolvedores durante o desenvolvimento e manutenção do sistema.
 
-No nível de contexto, descrevemos a visão geral do sistema, identificando os atores externos e os principais sistemas com os quais o sistema em questão interage. Isso nos ajuda a entender o ambiente no qual o sistema está inserido.
-
-![Diagrama de Contexto](out/Contexto/AplicacaoContext.png)
-
-## Nível 2: Contêiner
-
-No nível de contêiner, descrevemos os principais contêineres que compõem o sistema, como aplicativos web, serviços, bancos de dados, dentre outros. Também identificamos as interações entre esses contêineres, fornecendo uma visão de alto nível da arquitetura do sistema.
-
-![Diagrama de Container](out/Container/AplicacaoContainer.png)
-
-## Nível 3: Componente
-
-No nível de componente, descrevemos os principais componentes dentro de cada contêiner. Isso nos ajuda a entender como os diferentes componentes se relacionam e interagem entre si.
-
-![Diagrama de Componente](out/Component/AplicacaoComponent.png)
-
-## Nível 4: Código
-
-No nível de código, podemos fornecer detalhes técnicos sobre a implementação dos componentes. Isso pode incluir diagramas de classe, diagramas de sequência, diagramas de atividades, entre outros.
-
-![Diagrama de Código](out/Codigo/AplicacaoCodigo.png) -->
+[Veja aqui](CClass/README.md)
 
 ### Templates
 
 Para ver os templates [Clique aqui](Templates/README.md)
-
